@@ -1,0 +1,65 @@
+.blog-card {
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+    user-select: none;
+    position: relative;
+}
+
+.blog-card h2 {
+    font-size: 18px;
+}
+
+.blog-card h4{
+    font-size: 12px;
+    padding-left: 0.5em;
+    margin: 0px;
+}
+
+.blog-card p{
+    font-size: 12px;
+}
+
+.blog-card a{
+    display: inherit;
+    justify-content: space-between;
+}
+
+.author-section {
+    display: flex;
+    align-items: center;
+}
+
+.author-section > div {
+    border-radius: 50%;
+    background-image: url("https://pangopets.com/wp-content/uploads/2018/05/Dr-Catharine-Hennessy-400.jpg");
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-img{
+    background-image: url("https://images.unsplash.com/photo-1533460004989-cef01064af7e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3Jhc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    min-width: 30%; 
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-card span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.blog-body{
+    position: relative;
+    left:0;
+}

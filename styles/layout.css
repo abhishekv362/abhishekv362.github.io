@@ -1,0 +1,43 @@
+#hp-parent-container {
+    display: grid;
+    grid-template-areas: "col-1-row-1" "col-1-row-2" "col-1-row-3";
+}
+
+.hp-nav {
+    grid-area: col-1-row-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 999;
+}
+
+.hp-main {
+    grid-area: col-1-row-2;
+    margin-top: 100px;;
+    position: relative;
+    margin-bottom: 15%;
+}   
+
+.hp-hero {
+    padding: 1em;
+    position: relative;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+footer {
+    grid-area: col-1-row-3;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+}
