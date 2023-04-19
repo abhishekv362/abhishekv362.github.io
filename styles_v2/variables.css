@@ -1,0 +1,32 @@
+/* Font for logo text */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+/* Font for heading and texts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+/* CSS Variable */
+:root {
+    --font-logo: 'Tilt Prism', cursive;
+    --font-body: 'Libre Baskerville', serif;
+    --color: #d6a614;
+}
+
+html, body {
+    font-family: var(--font-body);
+    /* font-weight: ; */
+    font-size: 1rem;
+    /* line-height: 1.5; */
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h4, p{
+    margin: 0;
+}
+
+figure {
+    margin: 1rem;
+    padding: 0;
+}

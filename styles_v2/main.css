@@ -1,0 +1,43 @@
+@import url(./homepage.css);
+@import url(./cards.css);
+@import url(./blog_page.css);
+
+@media screen and (min-width: 48rem) {
+    .main, .main-post{
+        max-width: 1000px;
+        padding: 0 80px;
+    }
+
+    html, body{
+        font-size: 1.2rem;
+    }
+
+    .card-body span {
+        display: inline;
+    }
+
+    .card-body{
+        padding-right: 15%;
+    }
+
+    .nav h1{
+        font-size: 4rem;
+    }
+
+    .social-links > img{
+        height: 2rem;
+        width: 2rem;
+        padding: 0 0.8rem;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 62.5rem) {
+    .nav ul {
+        /* display: inline; */
+    }
+
+    html, body{
+        font-size: 1.4rem;
+    }
+}
