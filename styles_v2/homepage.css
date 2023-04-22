@@ -103,6 +103,7 @@ main {
 
 .newsletter-subscription > h2 {
     margin-top: 0.5em;
+    text-shadow: 0px 0.15em 5px rgb(145, 109, 19);
 }
 
 .subscription-wrapper{
