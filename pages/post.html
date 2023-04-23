@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles_v2/main.css">
+    <link rel="stylesheet" href="../styles_v2/main.css">
     <title>Pet Tales</title>
 </head>
 
 <body>
     <div class="parent-container">
         <nav class="nav">
-            <a href="./index.html"><h1> Pet Tales </h1></a>
-            <a href="./index.html"><div id="logo"></div></a>
+            <a href="../index.html"><h1> Pet Tales </h1></a>
+            <a href="../index.html"><div id="logo"></div></a>
             <button class="login-btn">Login</button>
             <ul>
                 <li> Home </li>
@@ -26,17 +26,17 @@
         <main class="main-post">
             <div class="author-card">
                 <section class="author-sec">
-                    <img src="./assets/images/author.jpg" alt="author's image">
+                    <a href="./author.html"><img src="../assets/images/author.jpg" alt="author's image"></a>
                     <section class="author-info">
-                        <h2> Abhishek Patel </h2>
-                        <p> <b>Author</b></p>
+                        <a href="./author.html"><h2> Abhishek Patel </h2></a>
+                        <p> <b> Published on: 13 Apr</b></p>
                     </section>
                 </section>
                 <section class="social-links">
-                    <img src="./assets/images/linkedin.svg" alt="">
-                    <img src="./assets/images/twitter.svg" alt="">
-                    <img src="./assets/images/instagram.svg" alt="">
-                    <img src="./assets/images/facebook.svg" alt="">
+                    <a href="https://www.linkedin.com/in/abhishekv362/"><img src="../assets/images/linkedin.svg" alt=""></a>
+                    <a href="https://twitter.com/home"><img src="../assets/images/twitter.svg" alt=""></a>
+                    <a href="https://www.instagram.com/abhishekv362/"><img src="../assets/images/instagram.svg" alt=""></a>
+                    <a href="https://m.facebook.com/abhishekv362"><img src="../assets/images/facebook.svg" alt=""></a>
                 </section>
             </div>
 
@@ -46,14 +46,18 @@
             </header>
 
             <figure>
-                <img id="post-hero" src="./assets/images/post-hero.jpg" alt="People playing with pets">
+                <img id="post-hero" src="../assets/images/post-hero.jpg" alt="People playing with pets">
                 <figcaption>People spending time with there pets.</figcaption>
             </figure>
 
             <article>
                 <p>
                     Are you a proud new pet owner? Congratulations! Welcoming a furry friend into your home is an
-                    exciting and fulfilling experience. However, being a responsible pet owner comes with its share of
+                    exciting and fulfilling experience. This reminds me of a famous quote by <i class="quote-author">Anatole France:</i>
+                    <blockquote>
+                        "Until one has loved an animal, a part of one's soul remains unawakened."
+                    </blockquote>
+                    However, being a responsible pet owner comes with its share of
                     responsibilities. To help you navigate this new journey, we've put together a comprehensive guide
                     with 10 essential tips for new pet owners. Let's dive in!
                 </p>
@@ -157,11 +161,9 @@
                 <h2>Join Our Community</h2>
                 <div class="subscription-wrapper">
                     <label for="email">
-                        <input type="text" name="email" id="email" value="Enter your email">
+                        <input class="email-input" type="email" name="email" id="email" value="Enter your email">
                     </label>
-                    <label for="subscribe-btn">
-                        <input type="button" name="subscribe-btn" id="subscribe-btn" value="Subscribe">
-                    </label>
+                    <button class="subscribe-btn">Subscribe</button>
                 </div>
             </section>
         </main>

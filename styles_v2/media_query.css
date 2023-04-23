@@ -1,0 +1,49 @@
+@media screen and (min-width: 48rem) {
+    .main, .main-post, .author-container{
+        max-width: 1000px;
+        padding: 0 80px;
+    }
+
+    html, body{
+        font-size: 1.2rem;
+    }
+
+    main{
+        margin-top: 7rem;
+    }
+
+    .card-body span {
+        display: inline;
+    }
+
+    .card-body{
+        padding-right: 15%;
+    }
+
+    .nav h1{
+        font-size: 3rem;
+        transition: font-size 1s;
+    }
+
+    .social-links > img{
+        height: 2rem;
+        width: 2rem;
+        padding: 0 0.8rem;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 62.5rem) {
+    .nav ul {
+        /* display: inline; */
+    }
+
+    html, body{
+        font-size: 1.3rem;
+    }
+
+    .nav h1{
+        font-size: 4rem;
+        transition: font-size 1s;
+    }
+}

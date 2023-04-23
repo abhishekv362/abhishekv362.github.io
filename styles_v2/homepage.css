@@ -3,7 +3,7 @@
 /* parent-container */
 .parent-container{
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* Navigation Bar */
@@ -13,7 +13,7 @@
     justify-items: center;
     align-items: center;
     padding: 10px 10px;
-    /* position: fixed; */
+    position: fixed;
     top:0;
     left:0;
     right:0;
@@ -59,6 +59,8 @@
 /*  */
 main {
     margin: 0 auto;
+    margin-top: 6rem;
+    position: relative;
 }
 
 /* Hero Section */
@@ -96,9 +98,13 @@ main {
 .newsletter-subscription{
     background-color: #000;
     color: var(--color);
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 1em 0;
+    margin: 0.5rem 1rem;
+    border-radius: 1rem;
 }
 
 .newsletter-subscription > h2 {
@@ -108,6 +114,41 @@ main {
 
 .subscription-wrapper{
     margin: 1em auto;
+    /* background-color: var(--color); */
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.subscription-wrapper input {
+    background-color: var(--color);
+}
+
+.email-input{
+    font-size: 0.8em;
+    border-radius: 1rem;
+    padding: .8em;
+    border-bottom: 1px solid black;
+}
+
+input:focus{
+    outline: none;
+}
+
+.subscribe-btn{
+    font-size: 0.8em;
+    border: none;
+    padding: .8em;
+    border-radius: 1rem;
+    background-color: var(--color);
+    color: black;
+    font-weight: 700;
+    opacity: 70%;
+}
+
+.subscribe-btn:hover{
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 1s;
 }
 
 /* Footer Section */
@@ -115,5 +156,5 @@ footer {
     text-align: center;
     background-color: var(--color);
     font-size: 0.8em;
-    padding: 0.2em 0;
+    padding: 0.5em 0;
 }

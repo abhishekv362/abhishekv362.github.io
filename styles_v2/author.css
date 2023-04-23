@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.parent-container{
+    height: 100vh;
+}
+
+.author-container{
+    position: relative;
+    background-color: black;
+    padding: 0 20px;
+    margin-top: 6rem;
+}
+
+.author-wrapper{
+    margin: 0 auto;
+    color: var(--color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.author-wrapper > h1 {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.3rem;
+}
+
+.author-header img{
+    width: 15rem;
+    border-radius: 50%;
+    /* border: 5px solid var(--color); */
+    box-shadow: 0 0 5px 0.2em var(--color);
+}
+
+.author-container h2 {
+    margin-top: 0.5em;
+}
+
+.author-wrapper > .social-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px solid var(--color);
+    border-bottom: 1px solid var(--color);
+}
+
+.author-wrapper > .social-links  img {
+    width: 2.5rem;
+    height: auto;
+    background-color: rgba(255, 215,0, 80%);
+    opacity: 100%;
+}
+
+.author-wrapper > .social-links  img:hover{
+    background-color: rgba(255, 215,0 , 100%);
+}
+
+.about-author {
+    margin: 2rem 1rem;
+}
+
+.about-author p{
+    text-align: left;
+    margin: 1rem 0;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+/* .author-page-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px; */
+}
